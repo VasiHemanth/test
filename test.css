@@ -1,0 +1,207 @@
+*
+{
+    margin : 0;
+    padding : 0;
+    font-family: sans-serif;
+}
+/*-------Navigation--------*/
+#nav-bar 
+{
+    position : sticky;
+    top : 0;
+    z-index: 10;    
+    background-color:rgb(5,30,80);
+    
+}
+.navbar-nav { 
+    margin-left: auto; 
+} 
+#nav-bar ul li a:hover
+{
+    color : #ff4500!important;
+    text-decoration-style: solid;
+}
+.nav-link 
+{
+    color: #fff!important;
+    font-weight: 500;
+    font-size: 16px;
+}
+/*---------bgimage--------*/
+#banner{
+    position: relative;
+
+}
+#banner img{
+    max-width: 100%;
+    margin-bottom: 30px ;
+}
+#banner .welcome {
+    position: absolute;
+    top:2%;
+    color: #fafafa;
+    font-weight: 600;
+    display:inline-block;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:auto ;
+}
+#banner .welcome .context p {
+    position: relative;
+    text-align: center;
+}
+#banner .welcome .btn {
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#banner .context .btn {
+    animation-duration:1s;
+    animation-delay: 0.2s;
+    animation-iteration-count: 1 ;
+}
+
+#banner .welcome a:hover {
+    color:#eee;
+}
+ #banner .welcome .btn:hover {
+    background-color:rgb(58, 113, 221);
+}
+
+#works {
+    text-align: center; 
+}
+
+#works .sample {
+    padding: 10px 40px;
+}
+#works .work-item{
+    text-align: center;
+    padding:0 30px;
+}
+#works .our-work{
+    margin:30px auto;
+    padding:60px 50px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+#works .our-work:hover{
+    border: 2px solid rgb(5,30,80);
+}
+#works h2 {
+    padding:4px 0;
+}
+#works ul li {
+    list-style: none;
+    color:rgb(56, 56, 56);
+    padding:5px 0;
+
+}
+#world img {
+
+    position: relative;
+    box-sizing: border-box;
+    max-width:100%;
+    cursor: pointer;
+}
+#world .question-title {
+    padding:40px 0;
+    text-align: center;
+}
+#world p{
+    
+    margin: 0 20px;
+    margin-top:35px;
+    padding:10 0px;
+}
+#quote {
+
+    margin:5%;
+    text-align:center;
+}
+#quote h2{
+    
+    color: rgb(5,30,80);
+    text-align: center;
+}
+/*-------solutions--------*/
+#solutions 
+{
+    margin-top: 2%;
+    background-color:rgb(5,30,80);
+    color:#eee;
+    display:flex;
+}
+#solutions .header {
+    padding:5px;
+    padding-top : 20px;
+
+}
+ i{
+     color:#fff;
+ }
+
+/*---------About------------*/
+#achievements{
+    margin:4%;
+    padding:10px;
+}
+#achievements  h2 {
+    text-align: center;
+}
+#achievements .achieve {
+    margin:20px 25px;
+    padding: 30px 10px;
+
+}
+#achievements ul  li{
+
+    list-style:none;
+    margin:20px auto;
+    color:rgb(66, 66, 66);
+}
+ #achievements a {
+    margin-left:15px;
+    padding:10px;
+  }
+
+/*---------Footer----------*/
+#footer{
+    bottom:0;
+    background-color:rgb(5,30,80);
+    display: flex;
+    color:#ccc;
+}
+.footer-left{
+    margin:10px;
+    padding:5px;
+}
+.footer-left a{
+    text-decoration:none;
+}
+.footer-left a:hover{
+    color:orangered;    
+}
+.footer-center{
+    margin:10px;
+    padding:5px;
+}
+.footer-center ul li {
+    list-style:none;
+}
+.footer-center ul li a {
+    text-decoration:none;
+}
+.footer-center ul li a:hover {
+    color:orangered;
+}
+.footer-right{
+    margin:10px;
+    padding:5px;
+}
+.footer-right img {
+    margin-bottom:10px;
+}
+.footer-right .footer-company-name{
+    padding-top:2px;
+}
